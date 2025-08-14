@@ -80,6 +80,22 @@ streamlit run src/ui/streamlit_app.py
 **Search Results Evidence View**  
 ![Evidence View](assets/evidence_view_placeholder.png)
 
+##Future Improvements:
+
+Multi-language support
+
+Voice input/output
+
+Batch fact-checking from uploaded documents
+
+Integration with social media APIs for real-time claim detection
+
+##  Acknowledgments
+
+- [Nikhil Sharma](https://www.linkedin.com/in/-nikhil/) – Project concept and guidance  
+- [LangChain Documentation](https://python.langchain.com/) – Framework reference  
+- [Prompt Engineering Guide](https://www.promptingguide.ai/) – Prompt design best practices  
+- [SerpAPI](https://serpapi.com/) – Web search integration
 
 
 
