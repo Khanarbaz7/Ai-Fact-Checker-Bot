@@ -19,34 +19,35 @@ The bot uses advanced reasoning steps to identify assumptions, validate them wit
 
 ## 🛠️ Tech Stack
 
-- **Python 3.10+**
+- **Python 3.11+**
 - [LangChain](https://python.langchain.com/)
 - [Streamlit](https://docs.streamlit.io/) / [Gradio](https://gradio.app/docs/)
-- `duckduckgo-search` / `requests` / `beautifulsoup4`
+-  `requests` / `beautifulsoup4`
 - `python-dotenv` for API key management
 
 ## 📂 Project Structure
 ```
 fact_checker_bot/
-│── src/
-│ ├── fact_checker.py # Main fact-checking logic
-│ ├── prompt_chains.py # Prompt templates and chaining logic
-│ ├── search_tools.py # Web search integration
-│ ├── utils.py # Helper functions
-│ └── ui/
-│ ├── streamlit_app.py # Streamlit interface
-│ ├── gradio_app.py # Gradio interface
-│ └── cli.py # Command-line interface
-│── config/
-│ ├── prompts.yaml # Prompt templates
-│ └── settings.py # Configurations
-│── requirements.txt
-│── main.py # Entry point
-│── README.md
-│── .env.example
+├── .env
+├── .env.example
+├── .gitignore
+├── app.py
+├── main.py
+├── runner.py
+├── requirements.txt
+├── README.md
+├── assets/
+│ ├── streamlit_home_placeholder.png
+│ ├── fact_check_example_placeholder.png
+│ ├── evidence_view_placeholder.png
+├── fact_checker_bot/
+│ ├── config/ # Config files (prompts, settings)
+│ ├── examples/ # Example queries & notebooks
+│ ├── src/ # Main bot logic, search tools, prompt chains, utils
+│ ├── tests/ # Unit tests
+├── logs/
+│ ├── fact_checks.log
 ```
-
-
 ---
 
 ## ⚙️ Installation
