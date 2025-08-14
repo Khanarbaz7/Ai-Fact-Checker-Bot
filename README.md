@@ -69,6 +69,17 @@ cp .env.example .env
 streamlit run src/ui/streamlit_app.py
 
 📸 Screenshots
+## 📸 Screenshots
+
+**Home Interface (Streamlit)**  
+![Streamlit Home](assets/streamlit_home_placeholder.png)
+
+**Fact Verification Example**  
+![Fact Check Example](assets/fact_check_example_placeholder.png)
+
+**Search Results Evidence View**  
+![Evidence View](assets/evidence_view_placeholder.png)
+
 
 
 
