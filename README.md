@@ -26,6 +26,7 @@ The bot uses advanced reasoning steps to identify assumptions, validate them wit
 - `python-dotenv` for API key management
 
 ## 📂 Project Structure
+'''
 fact_checker_bot/
 │── src/
 │ ├── fact_checker.py # Main fact-checking logic
@@ -43,6 +44,7 @@ fact_checker_bot/
 │── main.py # Entry point
 │── README.md
 │── .env.example
+  '''
 
 
 ---
