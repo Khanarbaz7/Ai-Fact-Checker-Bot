@@ -1,0 +1,80 @@
+Folder PATH listing for volume Acer
+Volume serial number is 3A54-9900
+C:.
+¦   .env
+¦   .gitignore
+¦   app.py
+¦   main.py
+¦   project_structure.txt
+¦   README.md
+¦   requirements.txt
+¦   runner.py
+¦   
++---.pytest_cache
+¦   ¦   .gitignore
+¦   ¦   CACHEDIR.TAG
+¦   ¦   README.md
+¦   ¦   
+¦   +---v
+¦       +---cache
+¦               lastfailed
+¦               nodeids
+¦               stepwise
+¦               
++---assets
+¦       evidence_view_placeholder.png
+¦       fact_check_example_placeholder.png
+¦       streamlit_home_placeholder.png
+¦       
++---fact_checker_bot
+¦   +---config
+¦   ¦   ¦   prompts.yaml
+¦   ¦   ¦   settings.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           settings.cpython-311.pyc
+¦   ¦           settings.cpython-313.pyc
+¦   ¦           
+¦   +---examples
+¦   ¦       demo_notebook.ipynb
+¦   ¦       example_queries.txt
+¦   ¦       
+¦   +---src
+¦   ¦   ¦   fact_checker.py
+¦   ¦   ¦   fact_check_service.py
+¦   ¦   ¦   prompt_chains.py
+¦   ¦   ¦   search_tools.py
+¦   ¦   ¦   utils.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---ui
+¦   ¦   ¦       cli.py
+¦   ¦   ¦       gradio_app.py
+¦   ¦   ¦       streamlit_app.py
+¦   ¦   ¦       
+¦   ¦   +---__pycache__
+¦   ¦           fact_checker.cpython-311.pyc
+¦   ¦           fact_checker.cpython-313.pyc
+¦   ¦           fact_check_service.cpython-311.pyc
+¦   ¦           prompt_chains.cpython-311.pyc
+¦   ¦           prompt_chains.cpython-313.pyc
+¦   ¦           search_tools.cpython-311.pyc
+¦   ¦           search_tools.cpython-313.pyc
+¦   ¦           utils.cpython-311.pyc
+¦   ¦           utils.cpython-313.pyc
+¦   ¦           __init__.cpython-311.pyc
+¦   ¦           __init__.cpython-313.pyc
+¦   ¦           
+¦   +---tests
+¦       ¦   test_fact_checker.py
+¦       ¦   test_search_tools.py
+¦       ¦   
+¦       +---__pycache__
+¦               test_fact_checker.cpython-311-pytest-8.4.1.pyc
+¦               test_fact_checker.cpython-313-pytest-8.3.4.pyc
+¦               test_search_tools.cpython-311-pytest-8.4.1.pyc
+¦               test_search_tools.cpython-313-pytest-8.3.4.pyc
+¦               
++---logs
+        fact_checks.log
+        
