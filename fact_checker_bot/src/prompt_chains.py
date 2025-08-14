@@ -26,7 +26,6 @@ def extract_assumptions(answer: str) -> list:
     except json.JSONDecodeError:
         pass
 
-    # Fallback: use the entire answer as one assumption
     return [answer.strip()]
 
 
@@ -48,7 +47,6 @@ def verify_assumption(assumption: str) -> dict:
 
     raw_output = llm.invoke(prompt).content.strip()
 
-    # Remove markdown code fences if present
     raw_output = re.sub(r"```(?:json)?", "", raw_output).strip()
 
     try:
@@ -59,7 +57,6 @@ def verify_assumption(assumption: str) -> dict:
         if not isinstance(evidence_links, list):
             evidence_links = [str(evidence_links)]
     except json.JSONDecodeError:
-        # Fallback if LLM output isn't JSON
         verdict = "Uncertain"
         explanation = raw_output
         evidence_links = []

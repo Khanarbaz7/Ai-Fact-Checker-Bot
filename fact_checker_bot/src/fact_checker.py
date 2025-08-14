@@ -1,4 +1,3 @@
-# fact_checker_bot/src/fact_checker.py
 from fact_checker_bot.src.prompt_chains import initial_response, extract_assumptions, verify_assumption, final_synthesis
 import logging
 import os
@@ -45,7 +44,7 @@ def fact_check_claim(claim: str):
         return {
             "claim": claim,
             "initial_answer": answer,
-            "assumptions": results,  # list of dicts from verify_assumption()
+            "assumptions": results,  
             "final_answer": final_answer
         }
 

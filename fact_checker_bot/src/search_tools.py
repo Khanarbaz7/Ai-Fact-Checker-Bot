@@ -5,8 +5,7 @@ def search_web(query: str, num_results: int = 5) -> str:
     """Search the web using SerpAPI and return condensed evidence."""
     search = SerpAPIWrapper(serpapi_api_key=SERPAPI_KEY)
     
-    # Use SerpAPI structured results
-    results = search.results(query)  # dict
+    results = search.results(query)  
     if "organic_results" not in results:
         return "No search results found."
 
