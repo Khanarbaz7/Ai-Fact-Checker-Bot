@@ -1,7 +1,7 @@
 import streamlit as st
 from fact_checker_bot.src.fact_checker import fact_check_claim
 
-st.set_page_config(page_title="AI Fact Checker Bot", page_icon="🕵️‍♂️", layout="wide")
+st.set_page_config(page_title="AI Fact Checker Bot", layout="wide")
 st.title("🕵️‍♂️ AI Fact Checker Bot")
 st.markdown("Enter a claim below and let AI verify it for you with evidence.")
 
